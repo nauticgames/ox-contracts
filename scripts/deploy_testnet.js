@@ -15,7 +15,7 @@ async function main() {
 
   const Stadiums = await hre.ethers.getContractFactory("OXStadium");
   const deploy = await Stadiums.deploy(
-    "0xDd946a5C1dA0C727D4b748270aE1b59aa5f8c8A8",
+    "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
     "https://oxstadiums-test.s3.amazonaws.com/"
   );
 
